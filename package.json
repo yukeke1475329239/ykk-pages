@@ -1,0 +1,39 @@
+{
+  "name": "ykk-pages",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "ykk-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/ykk/ykk-pages#readme",
+  "bugs": {
+    "url": "https://github.com/ykk/ykk-pages/issues"
+  },
+  "license": "MIT",
+  "author": "keke.yu <keke.yu@17zuoye.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykk/ykk-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
